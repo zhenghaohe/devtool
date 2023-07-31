@@ -1,0 +1,25 @@
+```
+.StyleSheetForm {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.StyleSheetForm input,
+.StyleSheetForm select {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.StyleSheetForm button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.StyleSheetForm button:hover {
+  background-color: #45a049;
+}
+```

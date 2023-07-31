@@ -1,0 +1,33 @@
+.stylesheet-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stylesheet-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.stylesheet-list-item:last-child {
+  border-bottom: none;
+}
+
+.stylesheet-list-item .name {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.stylesheet-list-item .actions {
+  display: flex;
+  align-items: center;
+}
+
+.stylesheet-list-item .actions button {
+  margin-left: 5px;
+}

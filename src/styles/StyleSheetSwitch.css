@@ -1,0 +1,57 @@
+.StyleSheetSwitch {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.StyleSheetSwitch .title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.StyleSheetSwitch .styleSheetList {
+  display: flex;
+  flex-direction: column;
+}
+
+.StyleSheetSwitch .styleSheetItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+.StyleSheetSwitch .styleSheetItem .name {
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+.StyleSheetSwitch .styleSheetItem .actions {
+  display: flex;
+  align-items: center;
+}
+
+.StyleSheetSwitch .styleSheetItem .actions .edit {
+  margin-right: 5px;
+}
+
+.StyleSheetSwitch .styleSheetItem .actions .delete {
+  color: red;
+}
+
+.StyleSheetSwitch .addStyleSheetForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+.StyleSheetSwitch .addStyleSheetForm input,
+.StyleSheetSwitch .addStyleSheetForm button {
+  margin-left: 5px;
+}
